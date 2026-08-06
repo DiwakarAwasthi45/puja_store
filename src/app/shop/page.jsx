@@ -90,58 +90,64 @@ export default function page() {
           {/* Grid */}
           <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-8" data-reveal-stagger>
             {filtered.map((item) => (
-              <Link
+              <div
                 key={item.id}
-                href={`/shop/${item.slug}`}
-                className="bg-white rounded-2xl overflow-hidden shadow hover:shadow-xl transition duration-300 group block"
+                className="bg-white rounded-2xl overflow-hidden shadow hover:shadow-xl transition duration-300 group flex flex-col"
               >
-                <div className="relative overflow-hidden">
-                  <img
-                    src={item.image}
-                    alt={item.name}
-                    className="h-64 w-full object-cover group-hover:scale-110 transition duration-500"
-                  />
+                <Link href={`/shop/${item.slug}`} className="block">
+                  <div className="relative overflow-hidden">
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className="h-64 w-full object-cover group-hover:scale-110 transition duration-500"
+                    />
 
-                  <span className="absolute top-4 left-4 bg-red-600 text-white text-xs px-3 py-1 rounded-full">
-                    {item.badge}
-                  </span>
-                </div>
-
-                <div className="p-5">
-                  <p className="text-sm text-orange-600">
-                    {item.category}
-                  </p>
-
-                  <h3 className="font-bold text-xl mt-2">
-                    {item.name}
-                  </h3>
-
-                  <div className="flex items-center gap-1 mt-3">
-                    {[...Array(item.rating)].map((_, i) => (
-                      <Star
-                        key={i}
-                        size={16}
-                        className="fill-yellow-400 text-yellow-400"
-                      />
-                    ))}
-                  </div>
-
-                  <div className="flex items-center gap-3 mt-4">
-                    <span className="text-2xl font-bold text-[#3B0A0A]">
-                      Rs. {item.price}
-                    </span>
-
-                    <span className="line-through text-gray-400">
-                      Rs. {item.oldPrice}
+                    <span className="absolute top-4 left-4 bg-red-600 text-white text-xs px-3 py-1 rounded-full">
+                      {item.badge}
                     </span>
                   </div>
 
-                  <button className="mt-5 w-full h-11 rounded-xl bg-[#3B0A0A] hover:bg-[#5b1414] text-white flex justify-center items-center gap-2 transition">
+                  <div className="p-5">
+                    <p className="text-sm text-orange-600">
+                      {item.category}
+                    </p>
+
+                    <h3 className="font-bold text-xl mt-2">
+                      {item.name}
+                    </h3>
+
+                    <div className="flex items-center gap-1 mt-3">
+                      {[...Array(item.rating)].map((_, i) => (
+                        <Star
+                          key={i}
+                          size={16}
+                          className="fill-yellow-400 text-yellow-400"
+                        />
+                      ))}
+                    </div>
+
+                    <div className="flex items-center gap-3 mt-4">
+                      <span className="text-2xl font-bold text-[#3B0A0A]">
+                        Rs. {item.price}
+                      </span>
+
+                      <span className="line-through text-gray-400">
+                        Rs. {item.oldPrice}
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+
+                <div className="px-5 pb-5 mt-auto">
+                  <Link
+                    href="/cart"
+                    className="w-full h-11 rounded-xl bg-[#3B0A0A] hover:bg-[#5b1414] text-white flex justify-center items-center gap-2 transition"
+                  >
                     <ShoppingCart size={18} />
                     Add to Cart
-                  </button>
+                  </Link>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
 

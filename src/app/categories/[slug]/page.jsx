@@ -65,47 +65,54 @@ export default async function CategoryPage({ params }) {
         ) : (
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8" data-reveal-stagger>
             {categoryProducts.map((item) => (
-              <Link
+              <div
                 key={item.id}
-                href={`/shop/${item.slug}`}
                 className="bg-white rounded-3xl overflow-hidden shadow hover:shadow-xl transition duration-300 group"
               >
-                <div className="relative overflow-hidden">
-                  <img
-                    src={item.image}
-                    alt={item.name}
-                    className="h-60 w-full object-cover group-hover:scale-110 transition duration-500"
-                  />
-                  <span className="absolute top-4 left-4 bg-red-600 text-white text-xs px-3 py-1 rounded-full">
-                    {item.badge}
-                  </span>
-                </div>
-                <div className="p-6">
-                  <p className="text-sm text-orange-600">{item.category}</p>
-                  <h3 className="font-bold text-xl mt-1">{item.name}</h3>
-                  <div className="flex items-center gap-1 mt-3">
-                    {[...Array(item.rating)].map((_, i) => (
-                      <Star key={i} size={14} className="fill-yellow-400 text-yellow-400" />
-                    ))}
-                    <span className="text-gray-400 text-sm ml-1">
-                      ({item.rating}.0)
+                <Link href={`/shop/${item.slug}`} className="block">
+                  <div className="relative overflow-hidden">
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className="h-60 w-full object-cover group-hover:scale-110 transition duration-500"
+                    />
+                    <span className="absolute top-4 left-4 bg-red-600 text-white text-xs px-3 py-1 rounded-full">
+                      {item.badge}
                     </span>
                   </div>
-                  <div className="flex items-center justify-between mt-4">
-                    <div className="flex items-center gap-3">
-                      <span className="text-xl font-bold text-[#3B0A0A]">
-                        Rs. {item.price}
-                      </span>
-                      <span className="line-through text-gray-400 text-sm">
-                        Rs. {item.oldPrice}
+                  <div className="p-6">
+                    <p className="text-sm text-orange-600">{item.category}</p>
+                    <h3 className="font-bold text-xl mt-1">{item.name}</h3>
+                    <div className="flex items-center gap-1 mt-3">
+                      {[...Array(item.rating)].map((_, i) => (
+                        <Star key={i} size={14} className="fill-yellow-400 text-yellow-400" />
+                      ))}
+                      <span className="text-gray-400 text-sm ml-1">
+                        ({item.rating}.0)
                       </span>
                     </div>
-                    <span className="bg-[#3B0A0A] text-white p-2.5 rounded-xl hover:bg-[#5A1414] transition">
-                      <ShoppingCart size={18} />
-                    </span>
+                    <div className="flex items-center justify-between mt-4">
+                      <div className="flex items-center gap-3">
+                        <span className="text-xl font-bold text-[#3B0A0A]">
+                          Rs. {item.price}
+                        </span>
+                        <span className="line-through text-gray-400 text-sm">
+                          Rs. {item.oldPrice}
+                        </span>
+                      </div>
+                    </div>
                   </div>
+                </Link>
+                <div className="px-6 pb-6">
+                  <Link
+                    href="/cart"
+                    className="bg-[#3B0A0A] text-white p-2.5 rounded-xl hover:bg-[#5A1414] transition inline-flex items-center gap-2"
+                  >
+                    <ShoppingCart size={18} />
+                    Add to Cart
+                  </Link>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
         )}

@@ -591,10 +591,10 @@ const testimonials = [
                   </span>
                 </div>
 
-                <button className="mt-6 w-full bg-red-950 text-white py-3 rounded-xl font-semibold hover:bg-amber-600 transition flex items-center justify-center gap-2">
+                <Link href="/cart" className="mt-6 w-full bg-red-950 text-white py-3 rounded-xl font-semibold hover:bg-amber-600 transition flex items-center justify-center gap-2">
                   <ShoppingCart size={18} />
                   Add to Cart
-                </button>
+                </Link>
 
               </div>
 

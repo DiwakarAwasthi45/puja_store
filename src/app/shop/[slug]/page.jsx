@@ -93,10 +93,13 @@ export default async function ProductPage({ params }) {
             </div>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <button className="bg-[#3B0A0A] hover:bg-[#5A1414] text-white px-10 py-4 rounded-xl flex items-center gap-2 font-semibold transition">
+              <Link
+                href="/cart"
+                className="bg-[#3B0A0A] hover:bg-[#5A1414] text-white px-10 py-4 rounded-xl flex items-center gap-2 font-semibold transition"
+              >
                 <ShoppingCart size={20} />
                 Add to Cart
-              </button>
+              </Link>
               <Link
                 href="/cart"
                 className="bg-yellow-500 hover:bg-yellow-400 text-[#3B0A0A] px-10 py-4 rounded-xl font-semibold text-center transition"
