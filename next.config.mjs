@@ -2,6 +2,15 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
+  async redirects() {
+    return [
+      {
+        source: "/privacy",
+        destination: "/privacy-policy",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

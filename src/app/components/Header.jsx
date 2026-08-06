@@ -30,17 +30,17 @@ export default function Header() {
   const categories = [
     {
       title: "Idols & Murtis",
-      href: "/idols",
+      href: "/categories/idols-murtis",
       items: ["Ganesha Idol", "Lakshmi Idol", "Krishna Idol", "Shiva Idol"],
     },
     {
       title: "Puja Samagri",
-      href: "/samagri",
+      href: "/categories/puja-samagri",
       items: ["Puja Thali", "Diya", "Kalash", "Bell"],
     },
     {
       title: "Puja Kits",
-      href: "/puja-kits",
+      href: "/categories/puja-kits",
       items: ["Daily Kit", "Festival Kit", "Wedding Kit"],
     },
   ];

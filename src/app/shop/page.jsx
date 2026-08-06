@@ -1,70 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { Search, Star, ShoppingCart, Filter } from "lucide-react";
 import { useState } from "react";
-
-const products = [
-  {
-    id: 1,
-    name: "Brass Diya",
-    category: "Puja Samagri",
-    price: 499,
-    oldPrice: 699,
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1607082350899-105aa886ae?w=60",
-    badge: "20% OFF",
-  },
-  {
-    id: 2,
-    name: "Ganesh Idol",
-    category: "Idols",
-    price: 1499,
-    oldPrice: 1999,
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d=60",
-    badge: "Best Seller",
-  },
-  {
-    id: 3,
-    name: "Puja Thali Set",
-    category: "Puja Kits",
-    price: 999,
-    oldPrice: 1299,
-    rating: 4,
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30=600",
-    badge: "New",
-  },
-  {
-    id: 4,
-    name: "Incense Sticks",
-    category: "Incense",
-    price: 299,
-    oldPrice: 399,
-    rating: 5,
-    image: "https://images.unsplash.com/photo-161662798145-a19a4f9f2db4?w=600",
-    badge: "Hot",
-  },
-  {
-    id: 5,
-    name: "Rudraksha Mala",
-    category: "Spiritual",
-    price: 899,
-    oldPrice: 1199,
-    rating: 5,
-    image: "https://images.unsplash.com/photo-152157216347-6864f9cf17ab?w=600",
-    badge: "Trending",
-  },
-  {
-    id: 6,
-    name: "Temple Bell",
-    category: "Temple",
-    price: 799,
-    oldPrice: 999,
-    rating: 4,
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ffw=600",
-    badge: "Sale",
-  },
-];
+import { products } from "@/lib/products";
 
 export default function page() {
   const [search, setSearch] = useState("");
@@ -94,19 +33,29 @@ export default function page() {
           </h2>
 
           <ul className="space-y-3">
+            <li>
+              <Link
+                href="/shop"
+                className="block w-full text-left py-2 px-3 rounded-lg hover:bg-yellow-50 hover:text-[#3B0A0A] transition font-medium text-[#3B0A0A]"
+              >
+                All Products
+              </Link>
+            </li>
             {[
-              "All Products",
-              "Puja Samagri",
-              "Idols",
-              "Temple",
-              "Incense",
-              "Spiritual",
-              "Puja Kits",
+              { name: "Idols & Murtis", href: "/categories/idols-murtis" },
+              { name: "Puja Samagri", href: "/categories/puja-samagri" },
+              { name: "Puja Kits", href: "/categories/puja-kits" },
+              { name: "Incense & Dhoop", href: "/categories/incense-dhoop" },
+              { name: "Diya & Lamps", href: "/categories/diya-lamps" },
+              { name: "Festival Collection", href: "/categories/festival-collection" },
             ].map((item) => (
-              <li key={item}>
-                <button className="w-full text-left py-2 px-3 rounded-lg hover:bg-yellow-50 hover:text-[#3B0A0A] transition">
-                  {item}
-                </button>
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  className="block w-full text-left py-2 px-3 rounded-lg hover:bg-yellow-50 hover:text-[#3B0A0A] transition"
+                >
+                  {item.name}
+                </Link>
               </li>
             ))}
           </ul>
@@ -141,9 +90,10 @@ export default function page() {
           {/* Grid */}
           <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-8" data-reveal-stagger>
             {filtered.map((item) => (
-              <div
+              <Link
                 key={item.id}
-                className="bg-white rounded-2xl overflow-hidden shadow hover:shadow-xl transition duration-300 group"
+                href={`/shop/${item.slug}`}
+                className="bg-white rounded-2xl overflow-hidden shadow hover:shadow-xl transition duration-300 group block"
               >
                 <div className="relative overflow-hidden">
                   <img
@@ -191,7 +141,7 @@ export default function page() {
                     Add to Cart
                   </button>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 

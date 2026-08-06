@@ -180,7 +180,7 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/privacy" className="hover:text-amber-400 transition">
+                    <Link href="/privacy-policy" className="hover:text-amber-400 transition">
                       Privacy Policy
                     </Link>
                   </li>

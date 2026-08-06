@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import CountUp from "./components/CountUp";
 import {
   ArrowRight,
   ShieldCheck,
@@ -835,17 +836,23 @@ const testimonials = [
         <div className="mt-20 grid grid-cols-2 gap-6 lg:grid-cols-4" data-reveal-stagger>
 
           <div className="rounded-2xl bg-white p-8 text-center shadow-lg">
-            <h3 className="text-4xl font-bold text-red-950">10K+</h3>
+            <h3 className="text-4xl font-bold text-red-950">
+              <CountUp to={10000} suffix="+" />
+            </h3>
             <p className="mt-2 text-gray-500">Happy Customers</p>
           </div>
 
           <div className="rounded-2xl bg-white p-8 text-center shadow-lg">
-            <h3 className="text-4xl font-bold text-red-950">4.9★</h3>
+            <h3 className="text-4xl font-bold text-red-950">
+              <CountUp to={4.9} decimals={1} suffix="★" />
+            </h3>
             <p className="mt-2 text-gray-500">Average Rating</p>
           </div>
 
           <div className="rounded-2xl bg-white p-8 text-center shadow-lg">
-            <h3 className="text-4xl font-bold text-red-950">500+</h3>
+            <h3 className="text-4xl font-bold text-red-950">
+              <CountUp to={500} suffix="+" />
+            </h3>
             <p className="mt-2 text-gray-500">Authentic Products</p>
           </div>
 

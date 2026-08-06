@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import CountUp from "../components/CountUp";
 import {
   HeartHandshake,
   ShieldCheck,
@@ -159,7 +160,7 @@ export default function page() {
 
             <div className="bg-white rounded-3xl shadow p-8">
               <h3 className="text-5xl font-bold text-[#3B0A0A]">
-                10K+
+                <CountUp to={10000} suffix="+" />
               </h3>
               <p className="text-gray-500 mt-3">
                 Happy Customers
@@ -168,7 +169,7 @@ export default function page() {
 
             <div className="bg-white rounded-3xl shadow p-8">
               <h3 className="text-5xl font-bold text-[#3B0A0A]">
-                500+
+                <CountUp to={500} suffix="+" />
               </h3>
               <p className="text-gray-500 mt-3">
                 Spiritual Products
@@ -177,7 +178,7 @@ export default function page() {
 
             <div className="bg-white rounded-3xl shadow p-8">
               <h3 className="text-5xl font-bold text-[#3B0A0A]">
-                75+
+                <CountUp to={75} suffix="+" />
               </h3>
               <p className="text-gray-500 mt-3">
                 Festival Collections
@@ -186,7 +187,7 @@ export default function page() {
 
             <div className="bg-white rounded-3xl shadow p-8">
               <h3 className="text-5xl font-bold text-[#3B0A0A]">
-                100%
+                <CountUp to={100} suffix="%" />
               </h3>
               <p className="text-gray-500 mt-3">
                 Genuine Products

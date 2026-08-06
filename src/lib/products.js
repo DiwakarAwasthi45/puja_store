@@ -1,0 +1,206 @@
+export const products = [
+  {
+    id: 1,
+    slug: "brass-diya",
+    name: "Brass Diya",
+    category: "Diya & Lamps",
+    categorySlug: "diya-lamps",
+    price: 499,
+    oldPrice: 699,
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1607082350899-7e105aa886ae?w=600",
+    badge: "20% OFF",
+    description:
+      "Handcrafted brass diya lamp, perfect for daily aarti, festivals and home decoration. Comes with a traditional matte finish and stays cool while burning.",
+  },
+  {
+    id: 2,
+    slug: "ganesh-idol",
+    name: "Ganesh Idol",
+    category: "Idols & Murtis",
+    categorySlug: "idols-murtis",
+    price: 1499,
+    oldPrice: 1999,
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=600",
+    badge: "Best Seller",
+    description:
+      "Beautifully crafted Lord Ganesha idol made from premium materials. Ideal for home temple, office desk or gifting on auspicious occasions.",
+  },
+  {
+    id: 3,
+    slug: "puja-thali-set",
+    name: "Puja Thali Set",
+    category: "Puja Kits",
+    categorySlug: "puja-kits",
+    price: 999,
+    oldPrice: 1299,
+    rating: 4,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600",
+    badge: "New",
+    description:
+      "Complete puja thali set including aarti plate, kalash, small diya and bell. Everything you need for daily worship in one beautifully finished set.",
+  },
+  {
+    id: 4,
+    slug: "incense-sticks",
+    name: "Incense Sticks",
+    category: "Incense & Dhoop",
+    categorySlug: "incense-dhoop",
+    price: 299,
+    oldPrice: 399,
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+    badge: "Hot",
+    description:
+      "Premium long-lasting incense sticks made from natural herbs and essential oils. Fills your home with a calming, divine fragrance.",
+  },
+  {
+    id: 5,
+    slug: "rudraksha-mala",
+    name: "Rudraksha Mala",
+    category: "Festival Collection",
+    categorySlug: "festival-collection",
+    price: 899,
+    oldPrice: 1199,
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=600",
+    badge: "Trending",
+    description:
+      "Authentic 108-bead rudraksha mala, handpicked and tested. Believed to bring peace, focus and spiritual balance to the wearer.",
+  },
+  {
+    id: 6,
+    slug: "temple-bell",
+    name: "Temple Bell",
+    category: "Puja Samagri",
+    categorySlug: "puja-samagri",
+    price: 799,
+    oldPrice: 999,
+    rating: 4,
+    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600",
+    badge: "Sale",
+    description:
+      "Traditional brass temple bell with a rich, resonant sound. Perfect for home mandir, aarti and festive celebrations.",
+  },
+  {
+    id: 7,
+    slug: "brass-kalash",
+    name: "Brass Kalash",
+    category: "Puja Samagri",
+    categorySlug: "puja-samagri",
+    price: 649,
+    oldPrice: 849,
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?w=600",
+    badge: "New",
+    description:
+      "Traditional brass kalash (water pot) used in every puja ritual. Handcrafted with a fine engraved finish for weddings, hawan and festivals.",
+  },
+  {
+    id: 8,
+    slug: "shiva-idol",
+    name: "Shiva Idol",
+    category: "Idols & Murtis",
+    categorySlug: "idols-murtis",
+    price: 1899,
+    oldPrice: 2399,
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600",
+    badge: "Best Seller",
+    description:
+      "Meditative Lord Shiva idol sculpted with intricate detail. A serene addition to your home mandir, made from durable premium material.",
+  },
+  {
+    id: 9,
+    slug: "dhoop-cones",
+    name: "Dhoop Cones",
+    category: "Incense & Dhoop",
+    categorySlug: "incense-dhoop",
+    price: 199,
+    oldPrice: 299,
+    rating: 4,
+    image: "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=600",
+    badge: "Sale",
+    description:
+      "Slow-burning natural dhoop cones with a rich, calming aroma. Ideal for daily puja, meditation and purifying your living space.",
+  },
+  {
+    id: 10,
+    slug: "lakshmi-idol",
+    name: "Lakshmi Idol",
+    category: "Idols & Murtis",
+    categorySlug: "idols-murtis",
+    price: 1699,
+    oldPrice: 2199,
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1543158181-e6f9f6712055?w=600",
+    badge: "Diwali Pick",
+    description:
+      "Goddess Lakshmi idol crafted for prosperity and good fortune. A perfect Diwali gift, beautifully detailed and ready for your puja.",
+  },
+];
+
+export const categories = [
+  {
+    slug: "idols-murtis",
+    title: "Idols & Murtis",
+    description:
+      "Handcrafted idols of your favourite deities for home temples and gifting.",
+    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=600",
+  },
+  {
+    slug: "puja-samagri",
+    title: "Puja Samagri",
+    description:
+      "Essential puja items including bells, kalash and everything for daily worship.",
+    image: "https://images.unsplash.com/photo-1607082350899-7e105aa886ae?w=600",
+  },
+  {
+    slug: "puja-kits",
+    title: "Puja Kits",
+    description:
+      "Complete ready-to-use kits for daily, festival and wedding ceremonies.",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600",
+  },
+  {
+    slug: "incense-dhoop",
+    title: "Incense & Dhoop",
+    description:
+      "Natural incense sticks, dhoop and fragrances for a calm, divine atmosphere.",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+  },
+  {
+    slug: "diya-lamps",
+    title: "Diya & Lamps",
+    description:
+      "Traditional brass and clay diyas to light up your festivals and aarti.",
+    image: "https://images.unsplash.com/photo-1607082350899-7e105aa886ae?w=600",
+  },
+  {
+    slug: "festival-collection",
+    title: "Festival Collection",
+    description:
+      "Curated products for Diwali, Teej, Dashain and all major celebrations.",
+    image: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=600",
+  },
+];
+
+export function getProductBySlug(slug) {
+  return products.find((p) => p.slug === slug);
+}
+
+export function getCategoryBySlug(slug) {
+  return categories.find((c) => c.slug === slug);
+}
+
+export function getCategoryProducts(slug) {
+  return products.filter((p) => p.categorySlug === slug);
+}
+
+export function getRelatedProducts(product, limit = 3) {
+  return products
+    .filter((p) => p.id !== product.id && p.category === product.category)
+    .concat(products.filter((p) => p.id !== product.id && p.category !== product.category))
+    .slice(0, limit);
+}
