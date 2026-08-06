@@ -27,37 +27,37 @@ const categories = [
   {
     title: "Puja Kits",
     icon: Gift,
-    image: "/categories/kit.jpg",
+    image: "/images/main.jpg",
     count: "120+ Products",
   },
   {
     title: "Idols & Murtis",
     icon: Gem,
-    image: "/categories/idol.jpg",
+    image: "/images/main.jpg",
     count: "85+ Products",
   },
   {
     title: "Diya & Lamps",
     icon: Flame,
-    image: "/categories/diya.jpg",
+    image: "/images/main.jpg",
     count: "60+ Products",
   },
   {
     title: "Flowers & Mala",
     icon: Flower2,
-    image: "/categories/flowers.jpg",
+    image: "/images/main.jpg",
     count: "90+ Products",
   },
   {
     title: "Incense & Dhoop",
     icon: Sparkles,
-    image: "/categories/incense.jpg",
+    image: "/images/main.jpg",
     count: "75+ Products",
   },
   {
     title: "Festival Essentials",
     icon: HeartHandshake,
-    image: "/categories/festival.jpg",
+    image: "/images/main.jpg",
     count: "150+ Products",
   },
 ];
@@ -65,7 +65,7 @@ const products = [
   {
     id: 1,
     name: "Complete Puja Kit",
-    image: "/products/puja-kit.jpg",
+    image: "/images/main.jpg",
     price: 1499,
     oldPrice: 1899,
     discount: "20%",
@@ -74,7 +74,7 @@ const products = [
   {
     id: 2,
     name: "Brass Diya Set",
-    image: "/products/diya.jpg",
+    image: "/images/main.jpg",
     price: 899,
     oldPrice: 1099,
     discount: "18%",
@@ -83,7 +83,7 @@ const products = [
   {
     id: 3,
     name: "Lord Ganesha Idol",
-    image: "/products/ganesha.jpg",
+    image: "/images/main.jpg",
     price: 2499,
     oldPrice: 2999,
     discount: "15%",
@@ -92,7 +92,7 @@ const products = [
   {
     id: 4,
     name: "Premium Agarbatti",
-    image: "/products/incense.jpg",
+    image: "/images/main.jpg",
     price: 399,
     oldPrice: 499,
     discount: "20%",
@@ -102,25 +102,25 @@ const products = [
 const festivals = [
   {
     title: "Dashain Collection",
-    image: "/festival/dashain.jpg",
+    image: "/images/main.jpg",
     description: "Jamara, Kalash, Tika, Puja Kits & Sacred Essentials",
     color: "from-red-900/80 to-red-950/60",
   },
   {
     title: "Tihar Collection",
-    image: "/festival/tihar.jpg",
+    image: "/images/main.jpg",
     description: "Diyas, Rangoli, Candles, Flowers & Decorations",
     color: "from-amber-700/80 to-orange-900/70",
   },
   {
     title: "Maha Shivaratri",
-    image: "/festival/shivaratri.jpg",
+    image: "/images/main.jpg",
     description: "Belpatra, Rudraksha, Shiva Lingam & Puja Samagri",
     color: "from-slate-900/80 to-slate-700/70",
   },
   {
     title: "Ganesh Chaturthi",
-    image: "/festival/ganesh.jpg",
+    image: "/images/main.jpg",
     description: "Ganesh Idols, Modak Plates & Complete Puja Kits",
     color: "from-orange-700/80 to-red-800/70",
   },
@@ -168,7 +168,7 @@ const testimonials = [
     id: 1,
     name: "Ram Sharma",
     location: "Kathmandu",
-    image: "/testimonials/user1.jpg",
+    image: "/images/main.jpg",
     rating: 5,
     review:
       "The quality of the puja items exceeded my expectations. Delivery was fast, packaging was excellent, and every product felt authentic. Highly recommended!",
@@ -177,7 +177,7 @@ const testimonials = [
     id: 2,
     name: "Sita Adhikari",
     location: "Pokhara",
-    image: "/testimonials/user2.jpg",
+    image: "/images/main.jpg",
     rating: 5,
     review:
       "I ordered a complete Lakshmi Puja Kit for Tihar. Everything arrived on time and beautifully packed. I'll definitely shop here again.",
@@ -186,7 +186,7 @@ const testimonials = [
     id: 3,
     name: "Hari Karki",
     location: "Butwal",
-    image: "/testimonials/user3.jpg",
+    image: "/images/main.jpg",
     rating: 5,
     review:
       "Excellent service and genuine products. The brass diya and incense sticks were of premium quality. Great customer support as well.",
@@ -296,7 +296,7 @@ const testimonials = [
             {/* Main Product Image */}
             <div className="relative mx-auto w-[420px] h-[420px] rounded-full bg-white shadow-2xl border-8 border-white overflow-hidden">
               <img
-                src="/hero-puja.png"
+                src="/images/main.jpg"
                 alt="Puja Samagri"
                 className="w-full h-full object-cover"
               />
@@ -407,7 +407,7 @@ const testimonials = [
           {/* Left Image */}
           <div className="relative">
             <img
-              src="/images/about.jpg"
+              src="/images/main.jpg"
               alt="Puja Samagri"
               className="rounded-3xl shadow-2xl object-cover w-full h-[600px]"
             />

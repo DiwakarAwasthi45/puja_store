@@ -199,7 +199,7 @@ export default function RegisterPage() {
             {/* Google */}
             <button className="w-full h-12 rounded-xl border border-gray-300 flex items-center justify-center gap-3 hover:bg-gray-50 transition">
               <img
-                src="https://www.svgrepo.com/show/475656/google-color.svg"
+                src="/images/main.jpg"
                 alt="Google"
                 className="h-5 w-5"
               />

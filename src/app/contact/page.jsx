@@ -15,7 +15,7 @@ export default function page() {
 
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-r from-[#3B0A0A] via-[#5A1414] to-[#7A1F1F] text-white">
-        <div className="absolute inset-0 opacity-10 bg-[url('/pattern.png')]" />
+        <div className="absolute inset-0 opacity-10 bg-[url('/images/main.jpg')]" />
 
         <div className="relative max-w-7xl mx-auto px-6 py-24 text-center">
           <span className="inline-flex items-center gap-2 bg-yellow-500/20 border border-yellow-400 text-yellow-300 px-5 py-2 rounded-full text-sm">

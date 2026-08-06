@@ -130,7 +130,7 @@ export default function page() {
               className="flex h-12 w-full items-center justify-center gap-3 rounded-xl border border-gray-300 font-medium transition hover:bg-gray-50"
             >
               <img
-                src="https://www.svgrepo.com/show/475656/google-color.svg"
+                src="/images/main.jpg"
                 alt="Google"
                 className="h-5 w-5"
               />

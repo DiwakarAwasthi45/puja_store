@@ -20,7 +20,7 @@ const initialCart = [
     price: 499,
     qty: 2,
     image:
-      "https://images.unsplash.com/photo-1607082350899-7e105aa886ae?w=400",
+      "/images/main.jpg",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const initialCart = [
     price: 1499,
     qty: 1,
     image:
-      "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=400",
+      "/images/main.jpg",
   },
 ];
 

@@ -19,7 +19,7 @@ const initialWishlist = [
     oldPrice: 699,
     rating: 5,
     image:
-      "https://images.unsplash.com/photo-1607082350899-7e105aa886ae?w=600",
+      "/images/main.jpg",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const initialWishlist = [
     oldPrice: 1899,
     rating: 5,
     image:
-      "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=600",
+      "/images/main.jpg",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const initialWishlist = [
     oldPrice: 1299,
     rating: 4,
     image:
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600",
+      "/images/main.jpg",
   },
 ];
 

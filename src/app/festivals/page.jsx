@@ -9,7 +9,7 @@ const festivals = [
     name: "Dashain",
     month: "October",
     image:
-      "https://images.unsplash.com/photo-160500079751c5269ae?w=900",
+      "/images/main.jpg",
     description:
       "Celebrate the biggest Hindu festival with complete Dashain Puja Samagri, Jamara sets, Kalash, and sacred items.",
     color: "bg-red-600",
@@ -19,7 +19,7 @@ const festivals = [
     name: "Tihar",
     month: "November",
     image:
-      "https://images.unsplash.com/photo-1545239351-1141bd6?w=900",
+      "/images/main.jpg",
     description:
       "Decorate your home with diyas, rangoli colors, candles, flowers, and Lakshmi Puja essentials.",
     color: "bg-yellow-500",
@@ -29,7 +29,7 @@ const festivals = [
     name: "Maha Shivaratri",
     month: "February",
     image:
-      "https://images.unsplash.com/photo-1513151233558-d860c76?w=900",
+      "/images/main.jpg",
     description:
       "Offer Bel Patra, Rudraksha, Dhoop, Ganga Jal, and complete Shiva Puja kits.",
     color: "bg-indigo-600",
@@ -39,7 +39,7 @@ const festivals = [
     name: "Krishna Janmashtami",
     month: "August",
     image:
-      "https://images.unsplash.com/photo-151967-fd09be7ccebf?w=900",
+      "/images/main.jpg",
     description:
       "Beautiful Krishna idols, dresses, flutes, Makhan pots, and temple decorations.",
     color: "bg-blue-600",
@@ -49,7 +49,7 @@ const festivals = [
     name: "Ganesh Chaturthi",
     month: "September",
     image:
-      "https://images.unsplash.com/photo-1511795409834-ef04bbd62?w=900",
+      "/images/main.jpg",
     description:
       "Eco-friendly Ganesh idols, modak plates, flowers, incense, and puja accessories.",
     color: "bg-orange-500",
@@ -59,7 +59,7 @@ const festivals = [
     name: "Raksha Bandhan",
     month: "August",
     image:
-      "https://images.unsplash.com/photo-1528605248644-14dd04022da1=900",
+      "/images/main.jpg",
     description:
       "Premium Rakhi collection, gift hampers, sweets, and festive decorations.",
     color: "bg-pink-600",

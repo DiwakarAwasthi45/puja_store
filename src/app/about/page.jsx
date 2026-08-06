@@ -66,7 +66,7 @@ export default function page() {
 
           <div>
             <img
-              src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=900"
+              src="/images/main.jpg"
               alt="Puja Store"
               className="rounded-3xl shadow-xl object-cover h-[500px] w-full"
             />
