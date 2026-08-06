@@ -47,7 +47,7 @@ export default function page() {
 
           <Sparkles className="mx-auto text-yellow-400 mb-5" size={42} />
 
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl font-bold" data-reveal>
             About Puja Store
           </h1>
 
@@ -119,7 +119,7 @@ export default function page() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8" data-reveal-stagger>
 
             {features.map((feature) => {
               const Icon = feature.icon;
@@ -155,7 +155,7 @@ export default function page() {
 
         <div className="max-w-7xl mx-auto px-6">
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center" data-reveal-stagger>
 
             <div className="bg-white rounded-3xl shadow p-8">
               <h3 className="text-5xl font-bold text-[#3B0A0A]">

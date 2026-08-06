@@ -12,7 +12,7 @@ export default function page() {
       <div className="w-full max-w-md">
 
         {/* Card */}
-        <div className="bg-white rounded-3xl shadow-2xl border border-orange-100 overflow-hidden">
+        <div className="bg-white rounded-3xl shadow-2xl border border-orange-100 overflow-hidden" data-reveal>
 
           {/* Header */}
           <div className="bg-gradient-to-r from-[#3B0A0A] to-[#6B1111] px-8 py-10 text-center text-white">

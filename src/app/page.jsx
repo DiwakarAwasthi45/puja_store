@@ -204,7 +204,7 @@ const testimonials = [
         <div className="grid lg:grid-cols-2 gap-14 items-center">
 
           {/* Left Content */}
-          <div>
+          <div data-reveal-stagger>
 
             <div className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-5 py-2 shadow-sm">
               <Sparkles className="w-4 h-4 text-amber-600" />
@@ -348,7 +348,7 @@ const testimonials = [
         </div>
 
         {/* Categories Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16" data-reveal-stagger>
 
           {categories.map((item, index) => {
             const Icon = item.icon;
@@ -532,7 +532,7 @@ const testimonials = [
         </div>
 
         {/* Products */}
-        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8" data-reveal-stagger>
 
           {products.map((product) => (
 
@@ -638,7 +638,7 @@ const testimonials = [
         </div>
 
         {/* Cards */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8" data-reveal-stagger>
 
           {festivals.map((festival) => (
             <div
@@ -717,7 +717,7 @@ const testimonials = [
     </div>
 
     {/* Features */}
-    <div className="grid gap-8 mt-20 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid gap-8 mt-20 md:grid-cols-2 lg:grid-cols-3" data-reveal-stagger>
 
       {features.map((feature, index) => {
         const Icon = feature.icon;
@@ -780,7 +780,7 @@ const testimonials = [
         </div>
 
         {/* Testimonials */}
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3" data-reveal-stagger>
 
           {testimonials.map((item) => (
             <div
@@ -832,7 +832,7 @@ const testimonials = [
         </div>
 
         {/* Bottom Stats */}
-        <div className="mt-20 grid grid-cols-2 gap-6 lg:grid-cols-4">
+        <div className="mt-20 grid grid-cols-2 gap-6 lg:grid-cols-4" data-reveal-stagger>
 
           <div className="rounded-2xl bg-white p-8 text-center shadow-lg">
             <h3 className="text-4xl font-bold text-red-950">10K+</h3>

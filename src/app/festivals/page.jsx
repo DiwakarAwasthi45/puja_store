@@ -88,7 +88,7 @@ export default function page() {
 
       {/* Festivals */}
       <section className="max-w-7xl mx-auto px-6 py-20">
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8" data-reveal-stagger>
           {festivals.map((festival) => (
             <div
               key={festival.id}

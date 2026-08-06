@@ -78,7 +78,7 @@ export default function page() {
       {/* Hero */}
       <section className="bg-gradient-to-r from-[#3B0A0A] to-[#7A1F1F] text-white py-20">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h1 className="text-5xl font-bold mb-4">Puja Shop</h1>
+          <h1 className="text-5xl font-bold mb-4" data-reveal>Puja Shop</h1>
           <p className="text-lg text-orange-100">
             Authentic Puja Samagri, Idols & Spiritual Essentials
           </p>
@@ -139,7 +139,7 @@ export default function page() {
           </div>
 
           {/* Grid */}
-          <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-8" data-reveal-stagger>
             {filtered.map((item) => (
               <div
                 key={item.id}

@@ -80,7 +80,7 @@ export default function page() {
       {/* Offers */}
       <section className="max-w-7xl mx-auto px-6 py-20">
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8" data-reveal-stagger>
 
           {offers.map((offer) => (
 
@@ -141,7 +141,7 @@ export default function page() {
 
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8" data-reveal-stagger>
 
             {coupons.map((coupon) => (
 

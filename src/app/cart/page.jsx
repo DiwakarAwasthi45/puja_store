@@ -108,7 +108,7 @@ export default function page() {
       <section className="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-3 gap-10">
 
         {/* Cart Items */}
-        <div className="lg:col-span-2 space-y-6">
+        <div className="lg:col-span-2 space-y-6" data-reveal-stagger>
 
           {/* Shipping Progress */}
           <div className="bg-white rounded-2xl p-6 shadow">
@@ -197,7 +197,7 @@ export default function page() {
         </div>
 
         {/* Summary */}
-        <aside className="bg-white rounded-2xl shadow p-8 h-fit">
+        <aside className="bg-white rounded-2xl shadow p-8 h-fit" data-reveal>
 
           <h2 className="text-2xl font-bold text-[#3B0A0A] mb-8">
             Order Summary

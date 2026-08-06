@@ -40,7 +40,7 @@ export default function page() {
         <div className="grid lg:grid-cols-5 gap-12">
 
           {/* Left */}
-          <div className="lg:col-span-2 space-y-6">
+          <div className="lg:col-span-2 space-y-6" data-reveal-stagger>
 
             <div className="bg-white rounded-3xl shadow p-7">
               <div className="flex gap-5">
@@ -133,7 +133,7 @@ export default function page() {
           </div>
 
           {/* Form */}
-          <div className="lg:col-span-3 bg-white rounded-3xl shadow-xl p-10">
+          <div className="lg:col-span-3 bg-white rounded-3xl shadow-xl p-10" data-reveal>
 
             <h2 className="text-3xl font-bold text-[#3B0A0A]">
               Send a Message

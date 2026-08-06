@@ -95,7 +95,7 @@ export default function page() {
       {/* Wishlist */}
       <section className="max-w-7xl mx-auto px-6 py-16">
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8" data-reveal-stagger>
 
           {wishlist.map((item) => (
 
@@ -151,10 +151,10 @@ export default function page() {
                   </span>
                 </div>
 
-                <button className="w-full mt-6 bg-[#3B0A0A] hover:bg-[#5A1414] text-white py-3 rounded-xl flex items-center justify-center gap-2 transition">
+                <Link href={'/cart'} className="w-full mt-6 bg-[#3B0A0A] hover:bg-[#5A1414] text-white py-3 rounded-xl flex items-center justify-center gap-2 transition">
                   <ShoppingCart size={18} />
                   Add to Cart
-                </button>
+                </Link>
 
               </div>
 

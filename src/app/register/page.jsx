@@ -20,7 +20,7 @@ export default function RegisterPage() {
     <main className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-yellow-50 flex items-center justify-center px-4 py-10">
       <div className="w-full max-w-lg">
 
-        <div className="bg-white rounded-3xl shadow-2xl border border-orange-100 overflow-hidden">
+        <div className="bg-white rounded-3xl shadow-2xl border border-orange-100 overflow-hidden" data-reveal>
 
           {/* Header */}
           <div className="bg-gradient-to-r from-[#3B0A0A] to-[#6B1111] text-white text-center px-8 py-10">
