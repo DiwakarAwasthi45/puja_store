@@ -26,6 +26,9 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <noscript>
+          <style>{`[data-reveal],[data-reveal-stagger] > * { opacity: 1 !important; }`}</style>
+        </noscript>
         <Header/>
         <GsapProvider>{children}</GsapProvider>
         <Footer/>

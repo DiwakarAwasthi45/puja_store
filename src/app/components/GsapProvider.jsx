@@ -16,12 +16,6 @@ export default function GsapProvider({ children }) {
     if (!root) return;
 
     const ctx = gsap.context(() => {
-      gsap.fromTo(
-        root,
-        { autoAlpha: 0, y: 24 },
-        { autoAlpha: 1, y: 0, duration: 0.55, ease: "power2.out" }
-      );
-
       const revealDefaults = { duration: 0.7, ease: "power3.out" };
 
       gsap.utils.toArray("[data-reveal]").forEach((el) => {
@@ -43,17 +37,6 @@ export default function GsapProvider({ children }) {
             ...revealDefaults,
             stagger: 0.12,
             scrollTrigger: { trigger: group, start: "top 85%", once: true },
-          }
-        );
-      });
-
-      gsap.utils.toArray("section").forEach((el) => {
-        gsap.fromTo(
-          el,
-          { autoAlpha: 0, y: 40 },
-          {
-            ...revealDefaults,
-            scrollTrigger: { trigger: el, start: "top 85%", once: true },
           }
         );
       });
