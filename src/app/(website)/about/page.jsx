@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import CountUp from "../components/CountUp";
+import CountUp from "../../components/CountUp";
 import {
   HeartHandshake,
   ShieldCheck,

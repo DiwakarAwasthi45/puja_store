@@ -26,7 +26,7 @@ export default function Footer() {
       <div className="relative">
         {/* Newsletter */}
         <section aria-labelledby="newsletter-heading">
-          <div className="border-b border-white/10">
+          <div className="border-b border-gray-300">
             <div className="max-w-7xl mx-auto px-6 py-14">
               <div className="rounded-3xl bg-gradient-to-r from-red-900 to-amber-700 p-10 lg:flex items-center justify-between gap-10">
                 <div>
@@ -236,7 +236,7 @@ export default function Footer() {
 
         {/* Trust Bar */}
         <section aria-label="Trust and security features">
-          <div className="border-y border-white/10">
+          <div className="border-y border-gray-300">
             <div className="max-w-7xl mx-auto px-6 py-8 grid md:grid-cols-3 gap-8 text-center">
               <div className="flex justify-center items-center gap-3">
                 <Truck className="text-amber-400" aria-hidden="true" />

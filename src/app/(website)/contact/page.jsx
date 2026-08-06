@@ -18,7 +18,7 @@ export default function page() {
         <div className="absolute inset-0 opacity-10 bg-[url('/images/main.jpg')]" />
 
         <div className="relative max-w-7xl mx-auto px-6 py-24 text-center">
-          <span className="inline-flex items-center gap-2 bg-yellow-500/20 border border-yellow-400 text-yellow-300 px-5 py-2 rounded-full text-sm">
+          <span className="inline-flex items-center gap-2 bg-yellow-500/20 border border-gray-300 text-yellow-300 px-5 py-2 rounded-full text-sm">
             <MessageCircle size={16} />
             We're Here To Help
           </span>

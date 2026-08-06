@@ -147,7 +147,7 @@ export default function page() {
 
               <div
                 key={coupon.code}
-                className="border-2 border-dashed border-yellow-400 rounded-3xl p-8 bg-yellow-50"
+                className="border-2 border-dashed border-gray-300 rounded-3xl p-8 bg-yellow-50"
               >
 
                 <span className="text-sm uppercase text-gray-500">

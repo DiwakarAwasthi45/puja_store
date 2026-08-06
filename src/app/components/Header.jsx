@@ -46,7 +46,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-200">
+    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-300">
       {/* TOP BAR */}
       <div className="bg-[#3B0A0A] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex justify-between text-xs">
@@ -66,7 +66,7 @@ export default function Header() {
         <div className="flex items-center justify-between gap-4 md:gap-6">
           {/* LOGO */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-12 h-12 rounded-full bg-gradient-to-br from-yellow-300 to-yellow-600 flex items-center justify-center shadow-md before:absolute before:-inset-1 before:border before:border-yellow-400/60 before:rounded-full before:opacity-60 group-hover:before:-inset-2 transition">
+            <div className="relative w-12 h-12 rounded-full bg-gradient-to-br from-yellow-300 to-yellow-600 flex items-center justify-center shadow-md before:absolute before:-inset-1 before:border before:border-gray-300/60 before:rounded-full before:opacity-60 group-hover:before:-inset-2 transition">
               <Flame className="text-[#3B0A0A] w-6 h-6" />
             </div>
 
@@ -86,7 +86,7 @@ export default function Header() {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
               <input
                 placeholder="Search puja items..."
-                className="w-full h-11 rounded-full border border-gray-200 pl-12 pr-5 text-sm outline-none focus:border-yellow-500 focus:ring-4 focus:ring-yellow-100 transition"
+                className="w-full h-11 rounded-full border border-gray-300 pl-12 pr-5 text-sm outline-none focus:border-gray-300 focus:ring-4 focus:ring-yellow-100 transition"
               />
             </div>
           </div>
@@ -136,14 +136,14 @@ export default function Header() {
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
             <input
               placeholder="Search puja items..."
-              className="w-full h-11 rounded-full border border-gray-200 pl-12 pr-5 text-sm outline-none focus:border-yellow-500 focus:ring-4 focus:ring-yellow-100 transition"
+              className="w-full h-11 rounded-full border border-gray-300 pl-12 pr-5 text-sm outline-none focus:border-gray-300 focus:ring-4 focus:ring-yellow-100 transition"
             />
           </div>
         </div>
       </div>
 
       {/* NAVIGATION */}
-      <nav className="hidden md:block border-t border-gray-100">
+      <nav className="hidden md:block border-t border-gray-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-center gap-8">
             {/* CATEGORY DROPDOWN */}
@@ -162,7 +162,7 @@ export default function Header() {
               </button>
 
               {categoryOpen && (
-                <div className="absolute top-full left-0 w-72 bg-white border border-gray-200 rounded-xl shadow-xl p-2">
+                <div className="absolute top-full left-0 w-72 bg-white border border-gray-300 rounded-xl shadow-xl p-2">
                   {categories.map((cat) => (
                     <div key={cat.title} className="group/item relative">
                       <Link
@@ -173,7 +173,7 @@ export default function Header() {
                         <ChevronRight size={14} />
                       </Link>
 
-                      <div className="hidden group-hover/item:block absolute left-full top-0 w-60 bg-white border border-gray-200 rounded-xl shadow-xl p-2">
+                      <div className="hidden group-hover/item:block absolute left-full top-0 w-60 bg-white border border-gray-300 rounded-xl shadow-xl p-2">
                         {cat.items.map((item) => (
                           <Link
                             key={item}
@@ -207,7 +207,7 @@ export default function Header() {
 
       {/* MOBILE MENU */}
       {open && (
-        <div className="md:hidden border-t border-gray-200 px-4 sm:px-6 py-4">
+        <div className="md:hidden border-t border-gray-300 px-4 sm:px-6 py-4">
           <div className="space-y-1">
             {menuItems.map((item) => (
               <Link
@@ -221,7 +221,7 @@ export default function Header() {
             ))}
           </div>
 
-          <div className="mt-4 pt-4 border-t border-gray-100">
+          <div className="mt-4 pt-4 border-t border-gray-300">
             <div className="grid grid-cols-3 gap-3 text-center text-xs text-gray-600">
               <Link
                 href="/wishlist"

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import CountUp from "./components/CountUp";
+import CountUp from "../components/CountUp";
 import {
   ArrowRight,
   ShieldCheck,
@@ -207,7 +207,7 @@ const testimonials = [
           {/* Left Content */}
           <div data-reveal-stagger>
 
-            <div className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-5 py-2 shadow-sm">
+            <div className="inline-flex items-center gap-2 rounded-full border border-gray-300 bg-white px-5 py-2 shadow-sm">
               <Sparkles className="w-4 h-4 text-amber-600" />
               <span className="text-sm font-medium text-red-900">
                 100% Authentic Spiritual Products
@@ -239,7 +239,7 @@ const testimonials = [
 
               <Link
                 href="/categories"
-                className="rounded-full border-2 border-red-900 px-8 py-4 font-semibold text-red-900 transition hover:bg-red-950 hover:text-white"
+                className="rounded-full border-2 border-gray-300 px-8 py-4 font-semibold text-red-900 transition hover:bg-red-950 hover:text-white"
               >
                 Explore Categories
               </Link>
@@ -294,7 +294,7 @@ const testimonials = [
             </div>
 
             {/* Main Product Image */}
-            <div className="relative mx-auto w-[420px] h-[420px] rounded-full bg-white shadow-2xl border-8 border-white overflow-hidden">
+            <div className="relative mx-auto w-[420px] h-[420px] rounded-full bg-white shadow-2xl border-8 border-gray-300 overflow-hidden">
               <img
                 src="/images/main.jpg"
                 alt="Puja Samagri"
@@ -392,7 +392,7 @@ const testimonials = [
                 </div>
 
                 {/* Hover Border */}
-                <div className="absolute inset-0 border-2 border-transparent group-hover:border-amber-400 rounded-3xl transition-all duration-500" />
+                <div className="absolute inset-0 border-2 border-gray-300 group-hover:border-gray-300 rounded-3xl transition-all duration-500" />
               </Link>
             );
           })}
@@ -698,7 +698,7 @@ const testimonials = [
     {/* Heading */}
     <div className="text-center max-w-3xl mx-auto">
 
-      <span className="inline-flex items-center rounded-full bg-amber-100 border border-amber-300 px-5 py-2 text-amber-700 font-semibold">
+      <span className="inline-flex items-center rounded-full bg-amber-100 border border-gray-300 px-5 py-2 text-amber-700 font-semibold">
         ✨ Why Choose Us
       </span>
 
@@ -726,7 +726,7 @@ const testimonials = [
         return (
           <div
             key={index}
-            className="group relative overflow-hidden rounded-3xl bg-white border border-orange-100 p-8 shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-500"
+            className="group relative overflow-hidden rounded-3xl bg-white border border-gray-300 p-8 shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-500"
           >
 
             {/* Top Gradient */}
@@ -786,7 +786,7 @@ const testimonials = [
           {testimonials.map((item) => (
             <div
               key={item.id}
-              className="group relative overflow-hidden rounded-3xl bg-white border border-orange-100 p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              className="group relative overflow-hidden rounded-3xl bg-white border border-gray-300 p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
               {/* Quote */}
               <div className="absolute right-6 top-6 opacity-10">
@@ -814,7 +814,7 @@ const testimonials = [
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="h-16 w-16 rounded-full border-4 border-amber-200 object-cover"
+                  className="h-16 w-16 rounded-full border-4 border-gray-300 object-cover"
                 />
 
                 <div>

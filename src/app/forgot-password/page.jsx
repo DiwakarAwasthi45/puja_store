@@ -10,9 +10,9 @@ export default function page() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-yellow-50 flex items-center justify-center px-4 py-10">
       <div className="w-full max-w-md">
-        <div className="bg-white rounded-3xl shadow-2xl border border-orange-100 overflow-hidden" data-reveal>
+        <div className="bg-white rounded-3xl shadow-2xl border border-gray-300 overflow-hidden" data-reveal>
           <div className="bg-gradient-to-r from-[#3B0A0A] to-[#6B1111] px-8 py-10 text-center text-white">
-            <div className="mx-auto mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-white/10 border border-white/20 backdrop-blur">
+            <div className="mx-auto mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-white/10 border border-gray-300 backdrop-blur">
               <Flame className="h-10 w-10 text-yellow-400" />
             </div>
             <h1 className="text-3xl font-bold">Forgot Password</h1>
@@ -58,7 +58,7 @@ export default function page() {
                       type="email"
                       placeholder="Enter your registered email"
                       required
-                      className="h-12 w-full rounded-xl border border-gray-300 pl-12 pr-4 outline-none transition focus:border-yellow-500 focus:ring-4 focus:ring-yellow-100"
+                      className="h-12 w-full rounded-xl border border-gray-300 pl-12 pr-4 outline-none transition focus:border-gray-300 focus:ring-4 focus:ring-yellow-100"
                     />
                   </div>
                 </div>

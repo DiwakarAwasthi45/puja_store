@@ -20,12 +20,12 @@ export default function RegisterPage() {
     <main className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-yellow-50 flex items-center justify-center px-4 py-10">
       <div className="w-full max-w-lg">
 
-        <div className="bg-white rounded-3xl shadow-2xl border border-orange-100 overflow-hidden" data-reveal>
+        <div className="bg-white rounded-3xl shadow-2xl border border-gray-300 overflow-hidden" data-reveal>
 
           {/* Header */}
           <div className="bg-gradient-to-r from-[#3B0A0A] to-[#6B1111] text-white text-center px-8 py-10">
 
-            <div className="mx-auto h-20 w-20 rounded-full bg-white/10 border border-white/20 flex items-center justify-center mb-5">
+            <div className="mx-auto h-20 w-20 rounded-full bg-white/10 border border-gray-300 flex items-center justify-center mb-5">
               <Flame className="h-10 w-10 text-yellow-400" />
             </div>
 
@@ -56,7 +56,7 @@ export default function RegisterPage() {
                   <input
                     type="text"
                     placeholder="Enter your full name"
-                    className="w-full h-12 rounded-xl border border-gray-300 pl-12 pr-4 outline-none focus:ring-4 focus:ring-yellow-100 focus:border-yellow-500"
+                    className="w-full h-12 rounded-xl border border-gray-300 pl-12 pr-4 outline-none focus:ring-4 focus:ring-yellow-100 focus:border-gray-300"
                   />
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function RegisterPage() {
                   <input
                     type="email"
                     placeholder="Enter your email"
-                    className="w-full h-12 rounded-xl border border-gray-300 pl-12 pr-4 outline-none focus:ring-4 focus:ring-yellow-100 focus:border-yellow-500"
+                    className="w-full h-12 rounded-xl border border-gray-300 pl-12 pr-4 outline-none focus:ring-4 focus:ring-yellow-100 focus:border-gray-300"
                   />
                 </div>
               </div>
@@ -90,7 +90,7 @@ export default function RegisterPage() {
                   <input
                     type="tel"
                     placeholder="98XXXXXXXX"
-                    className="w-full h-12 rounded-xl border border-gray-300 pl-12 pr-4 outline-none focus:ring-4 focus:ring-yellow-100 focus:border-yellow-500"
+                    className="w-full h-12 rounded-xl border border-gray-300 pl-12 pr-4 outline-none focus:ring-4 focus:ring-yellow-100 focus:border-gray-300"
                   />
                 </div>
               </div>
@@ -107,7 +107,7 @@ export default function RegisterPage() {
                   <input
                     type={showPassword ? "text" : "password"}
                     placeholder="Create password"
-                    className="w-full h-12 rounded-xl border border-gray-300 pl-12 pr-12 outline-none focus:ring-4 focus:ring-yellow-100 focus:border-yellow-500"
+                    className="w-full h-12 rounded-xl border border-gray-300 pl-12 pr-12 outline-none focus:ring-4 focus:ring-yellow-100 focus:border-gray-300"
                   />
 
                   <button
@@ -136,7 +136,7 @@ export default function RegisterPage() {
                   <input
                     type={showConfirm ? "text" : "password"}
                     placeholder="Confirm password"
-                    className="w-full h-12 rounded-xl border border-gray-300 pl-12 pr-12 outline-none focus:ring-4 focus:ring-yellow-100 focus:border-yellow-500"
+                    className="w-full h-12 rounded-xl border border-gray-300 pl-12 pr-12 outline-none focus:ring-4 focus:ring-yellow-100 focus:border-gray-300"
                   />
 
                   <button

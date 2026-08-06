@@ -75,11 +75,11 @@ export default function page() {
                 placeholder="Search products..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full border rounded-full h-12 pl-12 pr-5 outline-none focus:ring-2 focus:ring-yellow-400"
+                className="w-full border-gray-300 rounded-full h-12 pl-12 pr-5 outline-none focus:ring-2 focus:ring-yellow-400"
               />
             </div>
 
-            <select className="border rounded-full px-5 h-12">
+            <select className="border-gray-300 rounded-full px-5 h-12">
               <option>Latest</option>
               <option>Price Low - High</option>
               <option>Price High - Low</option>

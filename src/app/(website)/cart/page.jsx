@@ -159,7 +159,7 @@ export default function page() {
 
                   <button
                     onClick={() => updateQty(item.id, "dec")}
-                    className="h-10 w-10 rounded-lg border flex items-center justify-center"
+                    className="h-10 w-10 rounded-lg border-gray-300 flex items-center justify-center"
                   >
                     <Minus size={18} />
                   </button>
@@ -170,7 +170,7 @@ export default function page() {
 
                   <button
                     onClick={() => updateQty(item.id, "inc")}
-                    className="h-10 w-10 rounded-lg border flex items-center justify-center"
+                    className="h-10 w-10 rounded-lg border-gray-300 flex items-center justify-center"
                   >
                     <Plus size={18} />
                   </button>
@@ -217,7 +217,7 @@ export default function page() {
               </span>
             </div>
 
-            <div className="border-t pt-5 flex justify-between text-xl font-bold">
+            <div className="border-t border-gray-300 pt-5 flex justify-between text-xl font-bold">
               <span>Total</span>
               <span className="text-[#3B0A0A]">
                 Rs. {total}
@@ -237,7 +237,7 @@ export default function page() {
             <div className="flex">
               <input
                 placeholder="Enter coupon"
-                className="flex-1 border rounded-l-xl px-4 h-12 outline-none"
+                className="flex-1 border-gray-300 rounded-l-xl px-4 h-12 outline-none"
               />
 
               <button className="bg-[#3B0A0A] text-white px-6 rounded-r-xl">
