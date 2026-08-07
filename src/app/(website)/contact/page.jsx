@@ -17,8 +17,8 @@ export default function page() {
       <section className="relative overflow-hidden bg-gradient-to-r from-[#3B0A0A] via-[#5A1414] to-[#7A1F1F] text-white">
         <div className="absolute inset-0 opacity-10 bg-[url('/images/main.jpg')]" />
 
-        <div className="relative max-w-7xl mx-auto px-6 py-24 text-center">
-          <span className="inline-flex items-center gap-2 bg-yellow-500/20 border border-gray-300 text-yellow-300 px-5 py-2 rounded-full text-sm">
+        <div className="relative max-w-7xl mx-auto px-6 py-16 sm:py-24 text-center">
+          <span className="inline-flex items-center gap-2 bg-yellow-500/20 border border-yellow-400/40 text-yellow-200 px-5 py-2 rounded-full text-sm">
             <MessageCircle size={16} />
             We're Here To Help
           </span>
@@ -53,11 +53,11 @@ export default function page() {
                     Phone
                   </h3>
 
-                  <p className="text-gray-600 mt-2">
+                  <p className="text-gray-700 mt-2">
                     +977-9800000000
                   </p>
 
-                  <p className="text-gray-600">
+                  <p className="text-gray-700">
                     +977-9811111111
                   </p>
                 </div>
@@ -75,11 +75,11 @@ export default function page() {
                     Email
                   </h3>
 
-                  <p className="text-gray-600 mt-2">
+                  <p className="text-gray-700 mt-2">
                     support@pujastore.com
                   </p>
 
-                  <p className="text-gray-600">
+                  <p className="text-gray-700">
                     info@pujastore.com
                   </p>
                 </div>
@@ -97,11 +97,11 @@ export default function page() {
                     Address
                   </h3>
 
-                  <p className="text-gray-600 mt-2">
+                  <p className="text-gray-700 mt-2">
                     Kathmandu, Nepal
                   </p>
 
-                  <p className="text-gray-600">
+                  <p className="text-gray-700">
                     Near Pashupatinath Temple
                   </p>
                 </div>
@@ -119,11 +119,11 @@ export default function page() {
                     Opening Hours
                   </h3>
 
-                  <p className="text-gray-600 mt-2">
+                  <p className="text-gray-700 mt-2">
                     Sunday - Friday
                   </p>
 
-                  <p className="text-gray-600">
+                  <p className="text-gray-700">
                     9:00 AM - 7:00 PM
                   </p>
                 </div>
@@ -139,7 +139,7 @@ export default function page() {
               Send a Message
             </h2>
 
-            <p className="text-gray-600 mt-3">
+            <p className="text-gray-700 mt-3">
               Fill out the form below and we'll get back to you soon.
             </p>
 
@@ -216,31 +216,31 @@ export default function page() {
           <div className="space-y-6">
 
             <div className="border rounded-2xl p-6">
-              <h3 className="font-bold text-xl">
+              <h3 className="font-bold text-lg sm:text-xl">
                 Do you deliver all over Nepal?
               </h3>
 
-              <p className="text-gray-600 mt-3">
+              <p className="text-gray-700 mt-3">
                 Yes, we provide delivery services throughout Nepal.
               </p>
             </div>
 
             <div className="border rounded-2xl p-6">
-              <h3 className="font-bold text-xl">
+              <h3 className="font-bold text-lg sm:text-xl">
                 How long does delivery take?
               </h3>
 
-              <p className="text-gray-600 mt-3">
+              <p className="text-gray-700 mt-3">
                 Usually between 2–5 business days depending on your location.
               </p>
             </div>
 
             <div className="border rounded-2xl p-6">
-              <h3 className="font-bold text-xl">
+              <h3 className="font-bold text-lg sm:text-xl">
                 Are your products authentic?
               </h3>
 
-              <p className="text-gray-600 mt-3">
+              <p className="text-gray-700 mt-3">
                 Yes. We source authentic puja products from trusted suppliers
                 and artisans.
               </p>

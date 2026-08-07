@@ -15,10 +15,10 @@ export default function page() {
   return (
     <main className="bg-[#faf8f5] min-h-screen">
       {/* Hero */}
-      <section className="bg-gradient-to-r from-[#3B0A0A] to-[#7A1F1F] text-white py-20">
+      <section className="bg-gradient-to-r from-[#3B0A0A] to-[#7A1F1F] text-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4" data-reveal>Puja Shop</h1>
-          <p className="text-lg text-orange-100">
+          <p className="text-base sm:text-lg text-orange-100 max-w-2xl mx-auto">
             Authentic Puja Samagri, Idols & Spiritual Essentials
           </p>
         </div>
@@ -32,11 +32,11 @@ export default function page() {
             Categories
           </h2>
 
-          <ul className="space-y-3">
-            <li>
+          <ul className="flex gap-2 overflow-x-auto pb-1 lg:flex-col lg:gap-0 lg:space-y-3 lg:overflow-visible lg:pb-0">
+            <li className="shrink-0">
               <Link
                 href="/shop"
-                className="block w-full text-left py-2 px-3 rounded-lg hover:bg-yellow-50 hover:text-[#3B0A0A] transition font-medium text-[#3B0A0A]"
+                className="block whitespace-nowrap text-left py-2 px-4 rounded-lg hover:bg-yellow-50 hover:text-[#3B0A0A] transition font-medium text-[#3B0A0A]"
               >
                 All Products
               </Link>
@@ -49,10 +49,10 @@ export default function page() {
               { name: "Diya & Lamps", href: "/categories/diya-lamps" },
               { name: "Festival Collection", href: "/categories/festival-collection" },
             ].map((item) => (
-              <li key={item.href}>
+              <li key={item.href} className="shrink-0">
                 <Link
                   href={item.href}
-                  className="block w-full text-left py-2 px-3 rounded-lg hover:bg-yellow-50 hover:text-[#3B0A0A] transition"
+                  className="block whitespace-nowrap text-left py-2 px-4 rounded-lg hover:bg-yellow-50 hover:text-[#3B0A0A] transition text-gray-700"
                 >
                   {item.name}
                 </Link>
@@ -99,7 +99,7 @@ export default function page() {
                     <img
                       src={item.image}
                       alt={item.name}
-                      className="h-64 w-full object-cover group-hover:scale-110 transition duration-500"
+                      className="h-48 sm:h-64 w-full object-cover group-hover:scale-110 transition duration-500"
                     />
 
                     <span className="absolute top-4 left-4 bg-red-600 text-white text-xs px-3 py-1 rounded-full">
@@ -108,11 +108,11 @@ export default function page() {
                   </div>
 
                   <div className="p-5">
-                    <p className="text-sm text-orange-700">
+                    <p className="text-sm font-medium text-orange-800">
                       {item.category}
                     </p>
 
-                    <h3 className="font-bold text-xl mt-2">
+                    <h3 className="font-bold text-xl mt-2 text-[#3B0A0A]">
                       {item.name}
                     </h3>
 
