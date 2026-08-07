@@ -116,9 +116,9 @@ export default function RegisterPage() {
                     className="absolute right-4 top-1/2 -translate-y-1/2"
                   >
                     {showPassword ? (
-                      <EyeOff className="h-5 w-5 text-gray-500" />
+                      <EyeOff className="h-5 w-5 text-gray-600" />
                     ) : (
-                      <Eye className="h-5 w-5 text-gray-500" />
+                      <Eye className="h-5 w-5 text-gray-600" />
                     )}
                   </button>
                 </div>
@@ -145,9 +145,9 @@ export default function RegisterPage() {
                     className="absolute right-4 top-1/2 -translate-y-1/2"
                   >
                     {showConfirm ? (
-                      <EyeOff className="h-5 w-5 text-gray-500" />
+                      <EyeOff className="h-5 w-5 text-gray-600" />
                     ) : (
-                      <Eye className="h-5 w-5 text-gray-500" />
+                      <Eye className="h-5 w-5 text-gray-600" />
                     )}
                   </button>
                 </div>
@@ -190,7 +190,7 @@ export default function RegisterPage() {
             {/* Divider */}
             <div className="my-8 flex items-center">
               <div className="flex-1 h-px bg-gray-200"></div>
-              <span className="px-4 text-sm text-gray-400">
+              <span className="px-4 text-sm text-gray-500">
                 OR
               </span>
               <div className="flex-1 h-px bg-gray-200"></div>

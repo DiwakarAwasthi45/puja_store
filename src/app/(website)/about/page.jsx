@@ -114,7 +114,7 @@ export default function page() {
               Why Choose Us?
             </h2>
 
-            <p className="text-gray-500 mt-4">
+            <p className="text-gray-600 mt-4">
               We are committed to quality, authenticity, and customer
               satisfaction.
             </p>
@@ -162,7 +162,7 @@ export default function page() {
               <h3 className="text-4xl sm:text-5xl font-bold text-[#3B0A0A]">
                 <CountUp to={10000} suffix="+" />
               </h3>
-              <p className="text-gray-500 mt-3">
+              <p className="text-gray-600 mt-3">
                 Happy Customers
               </p>
             </div>
@@ -171,7 +171,7 @@ export default function page() {
               <h3 className="text-4xl sm:text-5xl font-bold text-[#3B0A0A]">
                 <CountUp to={500} suffix="+" />
               </h3>
-              <p className="text-gray-500 mt-3">
+              <p className="text-gray-600 mt-3">
                 Spiritual Products
               </p>
             </div>
@@ -180,7 +180,7 @@ export default function page() {
               <h3 className="text-4xl sm:text-5xl font-bold text-[#3B0A0A]">
                 <CountUp to={75} suffix="+" />
               </h3>
-              <p className="text-gray-500 mt-3">
+              <p className="text-gray-600 mt-3">
                 Festival Collections
               </p>
             </div>
@@ -189,7 +189,7 @@ export default function page() {
               <h3 className="text-4xl sm:text-5xl font-bold text-[#3B0A0A]">
                 <CountUp to={100} suffix="%" />
               </h3>
-              <p className="text-gray-500 mt-3">
+              <p className="text-gray-600 mt-3">
                 Genuine Products
               </p>
             </div>

@@ -35,7 +35,7 @@ export default async function CategoryPage({ params }) {
 
       <section className="max-w-7xl mx-auto px-6 py-16">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-8">
-          <p className="text-gray-500">
+          <p className="text-gray-600">
             {categoryProducts.length}{" "}
             {categoryProducts.length === 1 ? "product" : "products"} found
           </p>
@@ -52,7 +52,7 @@ export default async function CategoryPage({ params }) {
             <h2 className="text-2xl font-bold text-[#3B0A0A]">
               No products in this category yet
             </h2>
-            <p className="mt-3 text-gray-500">
+            <p className="mt-3 text-gray-600">
               New products are being added regularly. Please check back soon.
             </p>
             <Link
@@ -87,7 +87,7 @@ export default async function CategoryPage({ params }) {
                       {[...Array(item.rating)].map((_, i) => (
                         <Star key={i} size={14} className="fill-yellow-400 text-yellow-400" />
                       ))}
-                      <span className="text-gray-500 text-sm ml-1">
+                      <span className="text-gray-600 text-sm ml-1">
                         ({item.rating}.0)
                       </span>
                     </div>

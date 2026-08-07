@@ -49,7 +49,7 @@ export default function CategoriesPage() {
                       className="group-hover:translate-x-1 transition text-yellow-500"
                     />
                   </h3>
-                  <p className="mt-3 text-gray-500 leading-7">
+                  <p className="mt-3 text-gray-600 leading-7">
                     {category.description}
                   </p>
                 </div>

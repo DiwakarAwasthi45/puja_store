@@ -135,7 +135,7 @@ export default function page() {
               Coupon Codes
             </h2>
 
-            <p className="text-gray-500 mt-4">
+            <p className="text-gray-600 mt-4">
               Apply these coupons during checkout.
             </p>
 
@@ -150,7 +150,7 @@ export default function page() {
                 className="border-2 border-dashed border-gray-300 rounded-3xl p-8 bg-yellow-50"
               >
 
-                <span className="text-sm uppercase text-gray-500">
+                <span className="text-sm uppercase text-gray-600">
                   Coupon Code
                 </span>
 

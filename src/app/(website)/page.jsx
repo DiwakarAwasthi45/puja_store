@@ -255,7 +255,7 @@ const testimonials = [
                 <h4 className="mt-3 font-bold text-red-900">
                   Fast Delivery
                 </h4>
-                <p className="mt-2 text-sm text-gray-500">
+                <p className="mt-2 text-sm text-gray-600">
                   Nationwide Shipping
                 </p>
               </div>
@@ -265,7 +265,7 @@ const testimonials = [
                 <h4 className="mt-3 font-bold text-red-900">
                   Genuine Items
                 </h4>
-                <p className="mt-2 text-sm text-gray-500">
+                <p className="mt-2 text-sm text-gray-600">
                   Trusted Quality
                 </p>
               </div>
@@ -275,7 +275,7 @@ const testimonials = [
                 <h4 className="mt-3 font-bold text-red-900">
                   5★ Reviews
                 </h4>
-                <p className="mt-2 text-sm text-gray-500">
+                <p className="mt-2 text-sm text-gray-600">
                   Happy Customers
                 </p>
               </div>
@@ -304,7 +304,7 @@ const testimonials = [
 
             {/* Floating Card 1 */}
             <div className="absolute left-0 top-10 rounded-2xl bg-white p-4 shadow-xl">
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-gray-600">
                 Festival Offers
               </p>
               <h3 className="text-2xl font-bold text-red-900">
@@ -314,7 +314,7 @@ const testimonials = [
 
             {/* Floating Card 2 */}
             <div className="absolute right-0 bottom-16 rounded-2xl bg-white p-4 shadow-xl">
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-gray-600">
                 Trusted by
               </p>
               <h3 className="text-2xl font-bold text-red-900">
@@ -457,7 +457,7 @@ const testimonials = [
                   <h4 className="font-semibold text-red-950">
                     Authentic Products
                   </h4>
-                  <p className="text-sm text-gray-500">
+                  <p className="text-sm text-gray-600">
                     Premium quality religious items.
                   </p>
                 </div>
@@ -469,7 +469,7 @@ const testimonials = [
                   <h4 className="font-semibold text-red-950">
                     Fast Delivery
                   </h4>
-                  <p className="text-sm text-gray-500">
+                  <p className="text-sm text-gray-600">
                     Safe delivery across Nepal.
                   </p>
                 </div>
@@ -481,7 +481,7 @@ const testimonials = [
                   <h4 className="font-semibold text-red-950">
                     Secure Payments
                   </h4>
-                  <p className="text-sm text-gray-500">
+                  <p className="text-sm text-gray-600">
                     Trusted online payment methods.
                   </p>
                 </div>
@@ -493,7 +493,7 @@ const testimonials = [
                   <h4 className="font-semibold text-red-950">
                     Customer Support
                   </h4>
-                  <p className="text-sm text-gray-500">
+                  <p className="text-sm text-gray-600">
                     Friendly support whenever you need help.
                   </p>
                 </div>
@@ -822,7 +822,7 @@ const testimonials = [
                     {item.name}
                   </h4>
 
-                  <p className="text-sm text-gray-500">
+                  <p className="text-sm text-gray-600">
                     {item.location}, Nepal
                   </p>
                 </div>
@@ -839,26 +839,26 @@ const testimonials = [
             <h3 className="text-3xl sm:text-4xl font-bold text-red-950">
               <CountUp to={10000} suffix="+" />
             </h3>
-            <p className="mt-2 text-gray-500">Happy Customers</p>
+            <p className="mt-2 text-gray-600">Happy Customers</p>
           </div>
 
           <div className="rounded-2xl bg-white p-6 sm:p-8 text-center shadow-lg">
             <h3 className="text-3xl sm:text-4xl font-bold text-red-950">
               <CountUp to={4.9} decimals={1} suffix="★" />
             </h3>
-            <p className="mt-2 text-gray-500">Average Rating</p>
+            <p className="mt-2 text-gray-600">Average Rating</p>
           </div>
 
           <div className="rounded-2xl bg-white p-6 sm:p-8 text-center shadow-lg">
             <h3 className="text-3xl sm:text-4xl font-bold text-red-950">
               <CountUp to={500} suffix="+" />
             </h3>
-            <p className="mt-2 text-gray-500">Authentic Products</p>
+            <p className="mt-2 text-gray-600">Authentic Products</p>
           </div>
 
           <div className="rounded-2xl bg-white p-6 sm:p-8 text-center shadow-lg">
             <h3 className="text-3xl sm:text-4xl font-bold text-red-950">24/7</h3>
-            <p className="mt-2 text-gray-500">Customer Support</p>
+            <p className="mt-2 text-gray-600">Customer Support</p>
           </div>
 
         </div>

@@ -28,7 +28,7 @@ export default function page() {
                 <h2 className="mt-6 text-2xl font-bold text-[#3B0A0A]">
                   Check Your Email
                 </h2>
-                <p className="mt-3 text-gray-500 leading-7">
+                <p className="mt-3 text-gray-600 leading-7">
                   We have sent a password reset link to your email address.
                   Please follow the instructions in the email to set a new
                   password.

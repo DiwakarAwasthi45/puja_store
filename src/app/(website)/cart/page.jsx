@@ -76,7 +76,7 @@ export default function page() {
             Your Cart is Empty
           </h1>
 
-          <p className="text-gray-500 mt-4">
+          <p className="text-gray-600 mt-4">
             Looks like you haven't added any spiritual products yet.
           </p>
 

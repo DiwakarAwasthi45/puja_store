@@ -113,7 +113,7 @@ export default function page() {
                   {festival.name}
                 </h2>
 
-                <div className="flex items-center gap-2 text-gray-500 mt-3">
+                <div className="flex items-center gap-2 text-gray-600 mt-3">
                   <CalendarDays size={18} />
                   <span>{festival.month}</span>
                 </div>

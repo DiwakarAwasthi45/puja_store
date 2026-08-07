@@ -60,7 +60,7 @@ export default function page() {
             Your Wishlist is Empty
           </h1>
 
-          <p className="text-gray-500 mt-4">
+          <p className="text-gray-600 mt-4">
             Save your favorite spiritual products and shop them later.
           </p>
 

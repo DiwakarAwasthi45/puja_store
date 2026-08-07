@@ -74,7 +74,7 @@ export default function page() {
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
-                    className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500"
+                    className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-600"
                   >
                     {showPassword ? (
                       <EyeOff className="h-5 w-5" />
@@ -119,7 +119,7 @@ export default function page() {
             {/* Divider */}
             <div className="my-8 flex items-center">
               <div className="h-px flex-1 bg-gray-200"></div>
-              <span className="px-4 text-sm text-gray-400">
+              <span className="px-4 text-sm text-gray-500">
                 OR
               </span>
               <div className="h-px flex-1 bg-gray-200"></div>

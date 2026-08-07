@@ -139,7 +139,7 @@ export default function page() {
               Send a Message
             </h2>
 
-            <p className="text-gray-500 mt-3">
+            <p className="text-gray-600 mt-3">
               Fill out the form below and we'll get back to you soon.
             </p>
 

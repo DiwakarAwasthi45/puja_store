@@ -56,7 +56,7 @@ export default async function ProductPage({ params }) {
               {[...Array(product.rating)].map((_, i) => (
                 <Star key={i} size={18} className="fill-yellow-400 text-yellow-400" />
               ))}
-              <span className="text-gray-500 text-sm ml-2">
+              <span className="text-gray-600 text-sm ml-2">
                 {product.rating}.0 Rating
               </span>
             </div>
