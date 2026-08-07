@@ -26,7 +26,7 @@ export default async function CategoryPage({ params }) {
             <span className="mx-2">/</span>
             <span className="text-white">{category.title}</span>
           </nav>
-          <h1 className="text-4xl font-bold" data-reveal>{category.title}</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold" data-reveal>{category.title}</h1>
           <p className="mt-3 text-orange-100 max-w-xl" data-reveal>
             {category.description}
           </p>
@@ -34,14 +34,14 @@ export default async function CategoryPage({ params }) {
       </section>
 
       <section className="max-w-7xl mx-auto px-6 py-16">
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-8">
           <p className="text-gray-500">
             {categoryProducts.length}{" "}
             {categoryProducts.length === 1 ? "product" : "products"} found
           </p>
           <Link
             href="/categories"
-            className="text-[#3B0A0A] font-semibold hover:underline"
+            className="text-[#3B0A0A] font-semibold hover:underline shrink-0"
           >
             View All Categories
           </Link>
@@ -81,13 +81,13 @@ export default async function CategoryPage({ params }) {
                     </span>
                   </div>
                   <div className="p-6">
-                    <p className="text-sm text-orange-600">{item.category}</p>
+                    <p className="text-sm text-orange-700">{item.category}</p>
                     <h3 className="font-bold text-xl mt-1">{item.name}</h3>
                     <div className="flex items-center gap-1 mt-3">
                       {[...Array(item.rating)].map((_, i) => (
                         <Star key={i} size={14} className="fill-yellow-400 text-yellow-400" />
                       ))}
-                      <span className="text-gray-400 text-sm ml-1">
+                      <span className="text-gray-500 text-sm ml-1">
                         ({item.rating}.0)
                       </span>
                     </div>
@@ -106,7 +106,7 @@ export default async function CategoryPage({ params }) {
                 <div className="px-6 pb-6">
                   <Link
                     href="/cart"
-                    className="bg-[#3B0A0A] text-white p-2.5 rounded-xl hover:bg-[#5A1414] transition inline-flex items-center gap-2"
+                    className="w-full bg-[#3B0A0A] text-white p-2.5 rounded-xl hover:bg-[#5A1414] transition inline-flex items-center justify-center gap-2"
                   >
                     <ShoppingCart size={18} />
                     Add to Cart

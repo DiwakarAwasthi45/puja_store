@@ -214,7 +214,7 @@ const testimonials = [
               </span>
             </div>
 
-            <h1 className="mt-6 text-5xl lg:text-7xl font-bold leading-tight text-red-950">
+            <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-red-950">
               Everything You Need
               <span className="block text-amber-600">
                 For Your Daily Puja
@@ -248,7 +248,7 @@ const testimonials = [
 
             {/* Features */}
 
-            <div className="mt-12 grid grid-cols-3 gap-5">
+            <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-5">
 
               <div className="rounded-2xl bg-white p-5 shadow-lg">
                 <Truck className="w-8 h-8 text-amber-600" />
@@ -290,11 +290,11 @@ const testimonials = [
 
             {/* Decorative Circle */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="h-[500px] w-[500px] rounded-full bg-gradient-to-br from-amber-300/30 to-orange-100 blur-sm" />
+              <div className="h-[320px] w-[320px] sm:h-[440px] sm:w-[440px] md:h-[500px] md:w-[500px] rounded-full bg-gradient-to-br from-amber-300/30 to-orange-100 blur-sm" />
             </div>
 
             {/* Main Product Image */}
-            <div className="relative mx-auto w-[420px] h-[420px] rounded-full bg-white shadow-2xl border-8 border-gray-300 overflow-hidden">
+            <div className="relative mx-auto w-[260px] h-[260px] sm:w-[340px] sm:h-[340px] md:w-[420px] md:h-[420px] rounded-full bg-white shadow-2xl border-8 border-gray-300 overflow-hidden">
               <img
                 src="/images/main.jpg"
                 alt="Puja Samagri"
@@ -409,11 +409,11 @@ const testimonials = [
             <img
               src="/images/main.jpg"
               alt="Puja Samagri"
-              className="rounded-3xl shadow-2xl object-cover w-full h-[600px]"
+              className="rounded-3xl shadow-2xl object-cover w-full h-[400px] sm:h-[500px] lg:h-[600px]"
             />
 
-            <div className="absolute -bottom-6 -right-6 bg-red-950 text-white p-8 rounded-2xl shadow-xl">
-              <h3 className="text-4xl font-bold text-amber-400">10+</h3>
+            <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-red-950 text-white p-5 sm:p-8 rounded-2xl shadow-xl">
+              <h3 className="text-3xl sm:text-4xl font-bold text-amber-400">10+</h3>
               <p className="mt-1 text-sm">
                 Years of Serving Devotion
               </p>
@@ -427,7 +427,7 @@ const testimonials = [
               About Our Store
             </span>
 
-            <h2 className="mt-6 text-5xl font-bold text-red-950 leading-tight">
+            <h2 className="mt-6 text-4xl md:text-5xl font-bold text-red-950 leading-tight">
               Your Trusted Destination
               <span className="block text-amber-600">
                 For Authentic Puja Essentials
@@ -522,7 +522,7 @@ const testimonials = [
             Best Collection
           </span>
 
-          <h2 className="mt-5 text-5xl font-bold text-red-950">
+          <h2 className="mt-5 text-4xl md:text-5xl font-bold text-red-950">
             Featured Products
           </h2>
 
@@ -628,7 +628,7 @@ const testimonials = [
             Festival Special
           </span>
 
-          <h2 className="mt-5 text-5xl font-bold text-red-950">
+          <h2 className="mt-5 text-4xl md:text-5xl font-bold text-red-950">
             Celebrate Every Festival
           </h2>
 
@@ -702,7 +702,7 @@ const testimonials = [
         ✨ Why Choose Us
       </span>
 
-      <h2 className="mt-6 text-5xl font-bold text-red-950 leading-tight">
+      <h2 className="mt-6 text-4xl md:text-5xl font-bold text-red-950 leading-tight">
         Experience Devotion With
         <span className="block text-amber-600">
           Quality & Trust
@@ -835,29 +835,29 @@ const testimonials = [
         {/* Bottom Stats */}
         <div className="mt-20 grid grid-cols-2 gap-6 lg:grid-cols-4" data-reveal-stagger>
 
-          <div className="rounded-2xl bg-white p-8 text-center shadow-lg">
-            <h3 className="text-4xl font-bold text-red-950">
+          <div className="rounded-2xl bg-white p-6 sm:p-8 text-center shadow-lg">
+            <h3 className="text-3xl sm:text-4xl font-bold text-red-950">
               <CountUp to={10000} suffix="+" />
             </h3>
             <p className="mt-2 text-gray-500">Happy Customers</p>
           </div>
 
-          <div className="rounded-2xl bg-white p-8 text-center shadow-lg">
-            <h3 className="text-4xl font-bold text-red-950">
+          <div className="rounded-2xl bg-white p-6 sm:p-8 text-center shadow-lg">
+            <h3 className="text-3xl sm:text-4xl font-bold text-red-950">
               <CountUp to={4.9} decimals={1} suffix="★" />
             </h3>
             <p className="mt-2 text-gray-500">Average Rating</p>
           </div>
 
-          <div className="rounded-2xl bg-white p-8 text-center shadow-lg">
-            <h3 className="text-4xl font-bold text-red-950">
+          <div className="rounded-2xl bg-white p-6 sm:p-8 text-center shadow-lg">
+            <h3 className="text-3xl sm:text-4xl font-bold text-red-950">
               <CountUp to={500} suffix="+" />
             </h3>
             <p className="mt-2 text-gray-500">Authentic Products</p>
           </div>
 
-          <div className="rounded-2xl bg-white p-8 text-center shadow-lg">
-            <h3 className="text-4xl font-bold text-red-950">24/7</h3>
+          <div className="rounded-2xl bg-white p-6 sm:p-8 text-center shadow-lg">
+            <h3 className="text-3xl sm:text-4xl font-bold text-red-950">24/7</h3>
             <p className="mt-2 text-gray-500">Customer Support</p>
           </div>
 

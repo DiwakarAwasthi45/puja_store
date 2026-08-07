@@ -82,7 +82,7 @@ export default function page() {
       {/* Hero */}
       <section className="bg-gradient-to-r from-[#3B0A0A] to-[#7A1F1F] text-white py-16">
         <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-4xl sm:text-5xl font-bold">
             My Wishlist
           </h1>
 

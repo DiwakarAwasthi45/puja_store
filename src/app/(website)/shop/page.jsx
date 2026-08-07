@@ -17,7 +17,7 @@ export default function page() {
       {/* Hero */}
       <section className="bg-gradient-to-r from-[#3B0A0A] to-[#7A1F1F] text-white py-20">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h1 className="text-5xl font-bold mb-4" data-reveal>Puja Shop</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4" data-reveal>Puja Shop</h1>
           <p className="text-lg text-orange-100">
             Authentic Puja Samagri, Idols & Spiritual Essentials
           </p>
@@ -79,7 +79,7 @@ export default function page() {
               />
             </div>
 
-            <select className=" border border-gray-300 rounded-full px-5 h-12">
+            <select className="w-full md:w-auto border border-gray-300 rounded-full px-5 h-12">
               <option>Latest</option>
               <option>Price Low - High</option>
               <option>Price High - Low</option>
@@ -108,7 +108,7 @@ export default function page() {
                   </div>
 
                   <div className="p-5">
-                    <p className="text-sm text-orange-600">
+                    <p className="text-sm text-orange-700">
                       {item.category}
                     </p>
 

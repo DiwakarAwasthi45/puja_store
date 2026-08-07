@@ -26,7 +26,7 @@ export default async function ProductPage({ params }) {
             <span className="mx-2">/</span>
             <span className="text-white">{product.name}</span>
           </nav>
-          <h1 className="text-4xl font-bold" data-reveal>{product.name}</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold" data-reveal>{product.name}</h1>
         </div>
       </section>
 
@@ -36,7 +36,7 @@ export default async function ProductPage({ params }) {
             <img
               src={product.image}
               alt={product.name}
-              className="w-full h-[480px] object-cover"
+              className="w-full h-[320px] sm:h-[400px] lg:h-[480px] object-cover"
             />
           </div>
 
@@ -45,10 +45,10 @@ export default async function ProductPage({ params }) {
               <span className="bg-red-600 text-white text-xs px-3 py-1 rounded-full">
                 {product.badge}
               </span>
-              <span className="text-sm text-orange-600">{product.category}</span>
+              <span className="text-sm text-orange-700">{product.category}</span>
             </div>
 
-            <h2 className="mt-4 text-4xl font-bold text-[#3B0A0A]">
+            <h2 className="mt-4 text-3xl sm:text-4xl font-bold text-[#3B0A0A]">
               {product.name}
             </h2>
 
@@ -61,8 +61,8 @@ export default async function ProductPage({ params }) {
               </span>
             </div>
 
-            <div className="flex items-center gap-4 mt-6">
-              <span className="text-4xl font-bold text-[#3B0A0A]">
+            <div className="flex flex-wrap items-center gap-3 mt-6">
+              <span className="text-3xl sm:text-4xl font-bold text-[#3B0A0A]">
                 Rs. {product.price}
               </span>
               <span className="line-through text-gray-400 text-xl">

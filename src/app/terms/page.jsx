@@ -11,7 +11,7 @@ export default function TermsPage() {
             <span className="mx-2">/</span>
             <span className="text-white">Terms &amp; Conditions</span>
           </nav>
-          <h1 className="text-4xl font-bold" data-reveal>Terms &amp; Conditions</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold" data-reveal>Terms &amp; Conditions</h1>
           <p className="mt-3 text-orange-100" data-reveal>
             Last updated: January 2026
           </p>
@@ -90,7 +90,7 @@ export default function TermsPage() {
             </p>
           </div>
 
-          <div className="rounded-2xl bg-white shadow p-8">
+          <div className="rounded-2xl bg-white shadow p-6 sm:p-8">
             <h2 className="text-xl font-bold text-[#3B0A0A] mb-3">
               Need more information?
             </h2>

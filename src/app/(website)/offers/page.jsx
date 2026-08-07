@@ -65,11 +65,11 @@ export default function page() {
 
           <Tag className="mx-auto text-yellow-400 mb-5" size={42} />
 
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
             Exclusive Festival Offers
           </h1>
 
-          <p className="mt-6 text-orange-100 text-lg max-w-2xl mx-auto">
+          <p className="mt-6 text-orange-100 text-base sm:text-lg max-w-2xl mx-auto">
             Celebrate every occasion with amazing discounts on
             authentic Puja products and spiritual essentials.
           </p>
@@ -131,7 +131,7 @@ export default function page() {
               size={36}
             />
 
-            <h2 className="text-4xl font-bold text-[#3B0A0A]">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#3B0A0A]">
               Coupon Codes
             </h2>
 
@@ -185,7 +185,7 @@ export default function page() {
 
         <div className="max-w-7xl mx-auto px-6">
 
-          <div className="rounded-3xl bg-gradient-to-r from-yellow-500 to-orange-500 text-white p-10 flex flex-col lg:flex-row justify-between items-center gap-10">
+          <div className="rounded-3xl bg-gradient-to-r from-yellow-500 to-orange-500 text-white p-6 sm:p-10 flex flex-col lg:flex-row justify-between items-center gap-10">
 
             <div>
 
@@ -194,11 +194,11 @@ export default function page() {
                 <span>Limited Time Deal</span>
               </div>
 
-              <h2 className="text-4xl font-bold">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Flat 30% OFF
               </h2>
 
-              <p className="mt-5 text-lg">
+              <p className="mt-5 text-base sm:text-lg">
                 On selected Puja Kits, Diyas, Temple Decor,
                 and Brass Items.
               </p>
@@ -224,11 +224,11 @@ export default function page() {
 
         <div className="max-w-4xl mx-auto px-6 text-center">
 
-          <h2 className="text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-bold">
             Don't Miss Today's Offers
           </h2>
 
-          <p className="mt-6 text-orange-100 text-lg">
+          <p className="mt-6 text-orange-100 text-base sm:text-lg">
             Premium spiritual products at unbeatable prices.
             Shop now before the offers expire.
           </p>

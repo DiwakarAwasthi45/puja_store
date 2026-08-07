@@ -87,7 +87,7 @@ export default function page() {
               </div>
 
               {/* Remember */}
-              <div className="flex items-center justify-between text-sm">
+              <div className="flex flex-wrap items-center justify-between gap-3 text-sm">
 
                 <label className="flex items-center gap-2 text-gray-600">
                   <input

@@ -98,7 +98,7 @@ export default function page() {
       {/* Hero */}
       <section className="bg-gradient-to-r from-[#3B0A0A] to-[#7A1F1F] py-16 text-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-5xl font-bold">Shopping Cart</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold">Shopping Cart</h1>
           <p className="mt-4 text-orange-100">
             Review your selected puja products before checkout.
           </p>
@@ -151,7 +151,7 @@ export default function page() {
                   {item.name}
                 </h2>
 
-                <p className="mt-3 text-lg font-semibold text-yellow-700">
+                <p className="mt-3 text-lg font-semibold text-yellow-800">
                   Rs. {item.price}
                 </p>
 
@@ -197,7 +197,7 @@ export default function page() {
         </div>
 
         {/* Summary */}
-        <aside className="bg-white rounded-2xl shadow p-8 h-fit" data-reveal>
+        <aside className="bg-white rounded-2xl shadow p-6 sm:p-8 h-fit" data-reveal>
 
           <h2 className="text-2xl font-bold text-[#3B0A0A] mb-8">
             Order Summary

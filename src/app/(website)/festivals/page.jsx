@@ -74,11 +74,11 @@ export default function page() {
         <div className="max-w-7xl mx-auto px-6 text-center">
           <Sparkles className="mx-auto mb-5 text-yellow-400" size={42} />
 
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
             Hindu Festivals Collection
           </h1>
 
-          <p className="mt-6 max-w-3xl mx-auto text-orange-100 text-lg">
+          <p className="mt-6 max-w-3xl mx-auto text-orange-100 text-base sm:text-lg">
             Celebrate every festival with authentic Puja Samagri,
             Idols, Decorations, and Spiritual Essentials delivered
             to your doorstep.
@@ -138,7 +138,7 @@ export default function page() {
       {/* CTA */}
       <section className="bg-[#3B0A0A] text-white py-20">
         <div className="max-w-5xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-bold">
             Celebrate Every Festival with Devotion
           </h2>
 

@@ -12,7 +12,7 @@ export default function CategoriesPage() {
             <span className="mx-2">/</span>
             <span className="text-white">Categories</span>
           </nav>
-          <h1 className="text-4xl font-bold" data-reveal>Shop by Category</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold" data-reveal>Shop by Category</h1>
           <p className="mt-3 text-orange-100 max-w-xl" data-reveal>
             Explore our complete range of authentic puja essentials, organised
             by category for a quicker, easier shopping experience.
@@ -60,7 +60,7 @@ export default function CategoriesPage() {
       </section>
 
       <section className="max-w-7xl mx-auto px-6 pb-20">
-        <div className="rounded-3xl bg-gradient-to-r from-amber-500 to-yellow-400 p-10 flex flex-col md:flex-row items-center justify-between gap-6" data-reveal>
+        <div className="rounded-3xl bg-gradient-to-r from-amber-500 to-yellow-400 p-6 sm:p-10 flex flex-col md:flex-row items-center justify-between gap-6" data-reveal>
           <div className="flex items-center gap-4">
             <Sparkles className="text-[#3B0A0A] w-10 h-10" />
             <div>

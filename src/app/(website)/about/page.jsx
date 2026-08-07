@@ -48,7 +48,7 @@ export default function page() {
 
           <Sparkles className="mx-auto text-yellow-400 mb-5" size={42} />
 
-          <h1 className="text-5xl font-bold" data-reveal>
+          <h1 className="text-4xl sm:text-5xl font-bold" data-reveal>
             About Puja Store
           </h1>
 
@@ -68,17 +68,17 @@ export default function page() {
             <img
               src="/images/main.jpg"
               alt="Puja Store"
-              className="rounded-3xl shadow-xl object-cover h-[500px] w-full"
+              className="rounded-3xl shadow-xl object-cover h-[320px] sm:h-[420px] lg:h-[500px] w-full"
             />
           </div>
 
           <div>
 
-            <span className="text-yellow-600 font-semibold uppercase tracking-wider">
+            <span className="text-yellow-700 font-semibold uppercase tracking-wider">
               Our Story
             </span>
 
-            <h2 className="text-4xl font-bold text-[#3B0A0A] mt-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#3B0A0A] mt-4">
               Devotion Delivered With Care
             </h2>
 
@@ -110,7 +110,7 @@ export default function page() {
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-bold text-[#3B0A0A]">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#3B0A0A]">
               Why Choose Us?
             </h2>
 
@@ -156,10 +156,10 @@ export default function page() {
 
         <div className="max-w-7xl mx-auto px-6">
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center" data-reveal-stagger>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center" data-reveal-stagger>
 
-            <div className="bg-white rounded-3xl shadow p-8">
-              <h3 className="text-5xl font-bold text-[#3B0A0A]">
+            <div className="bg-white rounded-3xl shadow p-6 sm:p-8">
+              <h3 className="text-4xl sm:text-5xl font-bold text-[#3B0A0A]">
                 <CountUp to={10000} suffix="+" />
               </h3>
               <p className="text-gray-500 mt-3">
@@ -167,8 +167,8 @@ export default function page() {
               </p>
             </div>
 
-            <div className="bg-white rounded-3xl shadow p-8">
-              <h3 className="text-5xl font-bold text-[#3B0A0A]">
+            <div className="bg-white rounded-3xl shadow p-6 sm:p-8">
+              <h3 className="text-4xl sm:text-5xl font-bold text-[#3B0A0A]">
                 <CountUp to={500} suffix="+" />
               </h3>
               <p className="text-gray-500 mt-3">
@@ -176,8 +176,8 @@ export default function page() {
               </p>
             </div>
 
-            <div className="bg-white rounded-3xl shadow p-8">
-              <h3 className="text-5xl font-bold text-[#3B0A0A]">
+            <div className="bg-white rounded-3xl shadow p-6 sm:p-8">
+              <h3 className="text-4xl sm:text-5xl font-bold text-[#3B0A0A]">
                 <CountUp to={75} suffix="+" />
               </h3>
               <p className="text-gray-500 mt-3">
@@ -185,8 +185,8 @@ export default function page() {
               </p>
             </div>
 
-            <div className="bg-white rounded-3xl shadow p-8">
-              <h3 className="text-5xl font-bold text-[#3B0A0A]">
+            <div className="bg-white rounded-3xl shadow p-6 sm:p-8">
+              <h3 className="text-4xl sm:text-5xl font-bold text-[#3B0A0A]">
                 <CountUp to={100} suffix="%" />
               </h3>
               <p className="text-gray-500 mt-3">
@@ -205,7 +205,7 @@ export default function page() {
 
         <div className="max-w-4xl mx-auto px-6 text-center">
 
-          <h2 className="text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-bold">
             Begin Your Spiritual Journey Today
           </h2>
 

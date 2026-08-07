@@ -23,11 +23,11 @@ export default function page() {
             We're Here To Help
           </span>
 
-          <h1 className="text-5xl md:text-6xl font-bold mt-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mt-6">
             Contact Us
           </h1>
 
-          <p className="mt-6 max-w-2xl mx-auto text-orange-100 text-lg">
+          <p className="mt-6 max-w-2xl mx-auto text-orange-100 text-base sm:text-lg">
             Have questions about our products, orders, or deliveries?
             We'd love to hear from you.
           </p>
@@ -133,7 +133,7 @@ export default function page() {
           </div>
 
           {/* Form */}
-          <div className="lg:col-span-3 bg-white rounded-3xl shadow-xl p-10" data-reveal>
+          <div className="lg:col-span-3 bg-white rounded-3xl shadow-xl p-6 sm:p-10" data-reveal>
 
             <h2 className="text-3xl font-bold text-[#3B0A0A]">
               Send a Message
@@ -194,7 +194,7 @@ export default function page() {
           <iframe
             title="Google Map"
             src="https://www.google.com/maps?q=Pashupatinath+Temple+Kathmandu&output=embed"
-            className="w-full h-[500px]"
+            className="w-full h-[300px] sm:h-[400px] lg:h-[500px]"
             loading="lazy"
           ></iframe>
 
@@ -208,7 +208,7 @@ export default function page() {
         <div className="max-w-5xl mx-auto px-6">
 
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-bold text-[#3B0A0A]">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#3B0A0A]">
               Frequently Asked Questions
             </h2>
           </div>
